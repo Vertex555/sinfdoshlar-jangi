@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: sinfdoshlar-jangi
+    runtime: node
+    plan: free
+    rootDir: .
+    buildCommand: npm install
+    startCommand: npm start
+    healthCheckPath: /api/status
+    envVars:
+      - key: NODE_VERSION
+        value: 18.0.0
