@@ -1,7 +1,7 @@
 {
   "name": "sinfdoshlar-jangi",
-  "version": "1.0.0",
-  "description": "Multiplayer battle royale game - Telegram WebApp",
+  "version": "2.0.0",
+  "description": "Multiplayer battle royale game + Telegram bot (all-in-one)",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
@@ -13,6 +13,7 @@
   "type": "commonjs",
   "dependencies": {
     "express": "^4.19.2",
-    "socket.io": "^4.7.5"
+    "socket.io": "^4.7.5",
+    "grammy": "^1.30.0"
   }
 }

@@ -6,7 +6,9 @@ services:
     rootDir: .
     buildCommand: npm install
     startCommand: npm start
-    healthCheckPath: /api/status
+    healthCheckPath: /health
     envVars:
       - key: NODE_VERSION
         value: 18.0.0
+      - key: BOT_TOKEN
+        value: 8744220554:AAG5xYXypQjsnwnTyefTOEOmMiR-cozhY_Q
